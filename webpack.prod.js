@@ -1,8 +1,8 @@
-const HtmlWebPackPlugin      = require('html-webpack-plugin');
-const MiniCssExtractplugin   = require('mini-css-extract-plugin');
+const HtmlWebPackPlugin       = require('html-webpack-plugin');
+const MiniCssExtractplugin    = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const MinifyPlugin           = require('babel-minify-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MinifyPlugin            = require('babel-minify-webpack-plugin');
+const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
 
 module.exports = {
     mode: "production",

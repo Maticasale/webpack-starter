@@ -1,12 +1,12 @@
 const HtmlWebPackPlugin       = require('html-webpack-plugin'); 
 const MiniCssExtractPlugin    = require('mini-css-extract-plugin');
-// const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
     mode: 'production',
-    // optimization: {
-    //     minimizer: [ new OptimizeCssAssetsPlugin() ]
-    // },
+    optimization: {
+        minimizer: [ new OptimizeCssAssetsPlugin() ]
+    },
     module: {
         rules: [
             {
